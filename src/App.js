@@ -41,6 +41,7 @@
 // export default App;
 
 import React from "react";
+import ComplexForm from "./Form";
 
 const App = () => {
   return (
@@ -94,6 +95,7 @@ const App = () => {
 
         <button>Submit</button>
       </form>
+      <ComplexForm />
     </>
   );
 };
