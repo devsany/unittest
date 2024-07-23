@@ -160,4 +160,19 @@ test("renders learn react link", () => {
     name: "Books",
   });
   expect(intersetBooks).toBeInTheDocument();
+
+  const intersetMovies = screen.getByRole("checkbox", {
+    name: "Movies",
+  });
+  expect(intersetMovies).toBeInTheDocument();
+
+  const textMessage = screen.getByRole("textbox", {
+    name: "Additional Comments:",
+  });
+  expect(textMessage).toBeInTheDocument();
+
+  const buttonSubmit = screen.getByRole("button", {
+    name: "Submit",
+  });
+  expect(buttonSubmit).toBeInTheDocument();
 });

@@ -92,7 +92,7 @@ const App = () => {
         <label htmlFor="message">Additional Comments:</label>
         <textarea id="message" name="message" rows="4" cols="50"></textarea>
 
-        <input type="submit" value="Submit" />
+        <button>Submit</button>
       </form>
     </>
   );
